@@ -2685,6 +2685,25 @@ firmware_class.path=/vendor/firmware";
 	};
 
 	kd_camera_hw1: kd_camera_hw1@1a040000 {
+		cam0_enable_sensor = "hynix_hi1337_i hynix_hi1337_ii";
+		cam0_vcama-supply = <&mt_pmic_vcama_ldo_reg>;
+		cam0_vcamd-supply = <&mt_pmic_vcamd_ldo_reg>;
+		cam0_vcamio-supply = <&mt_pmic_vcamio_ldo_reg>;
+
+		cam1_enable_sensor = "gc_gc5035_i gc_gc5035_ii";
+		cam1_vcama-supply = <&mt_pmic_vcama_ldo_reg>;
+		cam1_vcamio-supply = <&mt_pmic_vcamio_ldo_reg>;
+		cam1_vcamd-supply = <&mt_pmic_vcamd_ldo_reg>;
+
+		cam2_enable_sensor = "hynix_hi259_i hynix_hi259_ii";
+		cam2_vcama-supply = <&mt_pmic_vcama_ldo_reg>;
+                cam2_vcamio-supply = <&mt_pmic_vcamio_ldo_reg>;
+		//cam2_vcamd-supply = <&mt_pmic_vcamd_ldo_reg>;
+
+		cam3_enable_sensor = "ov_ov02b_i gc_gc02m1_ii";
+		cam3_vcama-supply = <&mt_pmic_vcama_ldo_reg>;
+                cam3_vcamio-supply = <&mt_pmic_vcamio_ldo_reg>;
+
 		compatible = "mediatek,camera_hw";
 		reg = <0 0x1a040000 0 0x1000>;
 		/* SENINF_ADDR */
