@@ -26,6 +26,7 @@ struct stCAM_CAL_LIST_STRUCT g_camCalList[] = {
 	{GC_GC5035_I_SENSOR_ID, 0xA2, Common_read_region},
 	{GC_GC5035_II_SENSOR_ID, 0xA2, Common_read_region},
 	{GC_GC5035_III_SENSOR_ID, 0xA2, Common_read_region},
+	{GC_GC5035_IIII_SENSOR_ID, 0xA2, Common_read_region},
 	{HYNIX_HI259_I_SENSOR_ID, 0xA0, Common_read_region},
 	{HYNIX_HI259_II_SENSOR_ID, 0xA0, Common_read_region},
 	{HYNIX_HI259_III_SENSOR_ID, 0xA4, Common_read_region},
