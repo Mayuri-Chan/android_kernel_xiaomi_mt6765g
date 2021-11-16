@@ -354,6 +354,7 @@
 #define HYNIX_HI259_I_SENSOR_ID 	0xe1
 #define HYNIX_HI259_II_SENSOR_ID 	0xe2
 #define HYNIX_HI259_III_SENSOR_ID 	0xe3
+#define HYNIX_HI259_IV_SENSOR_ID 	0xe4
 #define OV02B_SENSOR_ID 	0x2b
 #define OV02B_III_SENSOR_ID 	0x2c
 
@@ -561,6 +562,7 @@
 #define SENSOR_DRVNAME_HYNIX_HI259_I		"hynix_hi259_i"
 #define SENSOR_DRVNAME_HYNIX_HI259_II		"hynix_hi259_ii"
 #define SENSOR_DRVNAME_HYNIX_HI259_III		"hynix_hi259_iii"
+#define SENSOR_DRVNAME_HYNIX_HI259_IV		"hynix_hi259_iv"
 #define SENSOR_DRVNAME_GC_GC02M1_II           "gc_gc02m1_ii"
 #define SENSOR_DRVNAME_OV_OV02B_I	"ov_ov02b_i"
 #define SENSOR_DRVNAME_OV_OV02B_III	"ov_ov02b_iii"

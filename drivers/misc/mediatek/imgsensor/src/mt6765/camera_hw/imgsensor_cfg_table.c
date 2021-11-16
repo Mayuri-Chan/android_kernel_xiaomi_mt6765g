@@ -318,6 +318,18 @@ struct IMGSENSOR_HW_POWER_SEQ sensor_power_sequence[] = {
                },
        },
 #endif
+#if defined(HYNIX_HI259_IV)
+       {
+               SENSOR_DRVNAME_HYNIX_HI259_IV,
+               {
+                       {RST, Vol_High, 3},
+                       {DOVDD, Vol_1800, 1},
+                       {AVDD, Vol_2800, 1},
+                       {SensorMCLK, Vol_High, 5},
+                       {RST, Vol_Low, 2},
+               },
+       },
+#endif
 	/* add new sensor before this line */
 	{NULL,},
 };
